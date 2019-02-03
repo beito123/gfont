@@ -1,0 +1,18 @@
+plugins {
+    id 'org.openjfx.javafxplugin' version '0.0.5'
+}
+
+mainClassName = 'com.gmx.mattcha.gfont.desktop.MainKt'
+
+group 'com.gmx.mattcha.gfont.desktop'
+version '1.0.0'
+
+dependencies {
+    compile "org.openjfx:javafx-graphics:11:win"
+    compile "org.openjfx:javafx-graphics:11:linux"
+    compile "org.openjfx:javafx-graphics:11:mac"
+}
+
+javafx {
+    modules = [ 'javafx.controls', 'javafx.fxml' ]
+}

@@ -1,0 +1,4 @@
+group = "com.gmx.mattcha.gfont.core"
+version = "1.0.0"
+
+mainClassName = 'com.gmx.mattcha.gfont.core.MainKt'
