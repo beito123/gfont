@@ -1,0 +1,22 @@
+/*
+	Style B
+*/
+
+/* Button */
+.button{
+	-fx-background-color: #FAFAFA;
+	-fx-border-color: #757575;
+	-fx-padding: 0px 4px;
+	-fx-font-size: 12px;
+	-fx-background-color: solid;
+}
+.button:hover{
+	-fx-background-color: #F5F5F5;
+	-fx-border-color: #B3B3B3;
+	-fx-background-color: solid;
+}
+.button:armed{
+	-fx-background-color: #DADADA;
+	-fx-border-color: #9E9E9E;
+	-fx-background-color: solid;
+}
